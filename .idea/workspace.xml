@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/LeftRotation.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/SparseArrayHrk.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/StacKwithMaximum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/StackWithMax.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/TwodArrayHourGlass.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TwodArrayHourGlass.java" afterPath="$PROJECT_DIR$/src/com/company/TwodArrayHourGlass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,14 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwodArrayHourGlass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwodArrayHourGlass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/TwodArrayHourGlass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="623">
               <caret line="53" column="47" lean-forward="false" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeftRotation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/LeftRotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/com/company/SparseArrayHrk.java" />
         <option value="$PROJECT_DIR$/src/com/company/StacKwithMaximum.java" />
         <option value="$PROJECT_DIR$/src/com/company/TwodArrayHourGlass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LeftRotation.java" />
       </list>
     </option>
   </component>
@@ -180,7 +185,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwodArrayHourGlass">
+  <component name="RunManager" selected="Application.LeftRotation">
+    <configuration name="LeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.company.LeftRotation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hackerrank" />
+      <envs />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -269,18 +293,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.SparseArrayHrk" />
       <item index="2" class="java.lang.String" itemvalue="Application.StacKwithMaximum" />
       <item index="3" class="java.lang.String" itemvalue="Application.TwodArrayHourGlass" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LeftRotation" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwodArrayHourGlass" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StacKwithMaximum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SparseArrayHrk" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.LeftRotation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TwodArrayHourGlass" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StacKwithMaximum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SparseArrayHrk" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +325,12 @@
       <updated>1574033855580</updated>
       <workItem from="1574033857052" duration="4184000" />
       <workItem from="1574284710101" duration="4173000" />
-      <workItem from="1574295278187" duration="2260000" />
+      <workItem from="1574295278187" duration="4173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10617000" />
+    <option name="totallyTimeSpent" value="12530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -329,7 +355,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -360,8 +386,14 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/LeftRotation.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -481,11 +513,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/TwodArrayHourGlass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="623">
           <caret line="53" column="47" lean-forward="false" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LeftRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
