@@ -37,7 +37,8 @@ public class FloodMap {
     }
 
     private static int getMaxNeighbors (int arr[][], int i, int j){
-        Stack<Integer> stack= new Stack<>();
+        int maxNumber = Integer.MIN_VALUE;
+//        Stack<Integer> stack= new Stack<>();
         for(int k=i-1; k<=i+1; k++){
             for(int m=j-1; m<=j+1; m++){
                 if((k>=0 && k<arr.length ) && (m>=0 && m<arr.length ) && !(k==i && m==j)){
@@ -46,13 +47,23 @@ public class FloodMap {
 //                    }
 
                     int value=getValueAtIndex(arr,k, m);
-                    performMaxOperation(stack, value);
+                    maxNumber=Math.max(value,maxNumber);
+//                    performMaxOperation(stack, value);
 //                    System.out.println(value);
                 }
 
             }
         }
-        return comparePoints(stack,arr[i][j]);
+        return comparePoints(maxNumber,arr[i][j]);
+//        return comparePoints(stack,arr[i][j]);
+    }
+
+    static int comparePoints(int maxValue, int currentArrayValue ){
+        if(currentArrayValue>maxValue){
+            return 1;
+        }else {
+            return 0;
+        }
     }
 
     static void performMaxOperation(Stack<Integer> stack, int value){
