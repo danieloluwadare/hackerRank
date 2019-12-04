@@ -9,7 +9,7 @@ public class BalancedBrackets {
         String input = "{[()]}";
         String input2 ="{[(])}";
         String input3 ="{{[[(())]]}}";
-        System.out.println(isBalanced(input));
+        System.out.println(isBalanced(input2));
     }
 
     public static String isBalanced(String s) {
@@ -19,40 +19,38 @@ public class BalancedBrackets {
             return "NO";
         }
 
-        Map<Character, Character> map = new HashMap<>();
-        map.put('{', '}');
-        map.put('[', ']');
-        map.put('(', ')');
 
-        Map<Character, Boolean> keyValuePair = new HashMap<>();
-        keyValuePair.put('{', true);
-        keyValuePair.put('[', true);
-        keyValuePair.put('(', true);
-        keyValuePair.put('}', false);
-        keyValuePair.put(']', false);
-        keyValuePair.put(')', false);
-
-
-
-        String result = "YES";
         Stack<Character> stack = new Stack<>();
 
         for (int i=0; i<length; i++){
             char currentString = s.charAt(i);
-            if(keyValuePair.get(s.charAt(i))){
+            if(currentString == '{' || currentString == '[' || currentString == '('){
                 stack.push(currentString);
             }
             else{
-                Character inverseOfStringAtTopOfStack = map.get(stack.pop());
-                if(currentString != inverseOfStringAtTopOfStack){
-                    result="NO";
-                    return result;
-//                    break;
+                if(stack.empty()){
+                    return "NO";
+                }else {
+                    char poppedChar = stack.pop();
+                    if(currentString=='}' && poppedChar!='{'){
+                        return "NO";
+                    }
+                    else if(currentString==']' && poppedChar!='['){
+                        return "NO";
+                    }
+                    else if(currentString==')' && poppedChar!='('){
+                        return "NO";
+                    }
                 }
+
             }
         }
+        if(stack.empty()){
+            return "YES";
+        }else {
+            return "NO";
+        }
 
-        return result;
 
     }
 }
