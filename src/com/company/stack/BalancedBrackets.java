@@ -19,32 +19,32 @@ public class BalancedBrackets {
             return "NO";
         }
 
-        Map<String, String> map = new HashMap<>();
-        map.put("{", "}");
-        map.put("[", "]");
-        map.put("(", ")");
+        Map<Character, Character> map = new HashMap<>();
+        map.put('{', '}');
+        map.put('[', ']');
+        map.put('(', ')');
 
-        Map<String, Boolean> keyValuePair = new HashMap<>();
-        keyValuePair.put("{", true);
-        keyValuePair.put("[", true);
-        keyValuePair.put("(", true);
-        keyValuePair.put("}", false);
-        keyValuePair.put("]", false);
-        keyValuePair.put(")", false);
+        Map<Character, Boolean> keyValuePair = new HashMap<>();
+        keyValuePair.put('{', true);
+        keyValuePair.put('[', true);
+        keyValuePair.put('(', true);
+        keyValuePair.put('}', false);
+        keyValuePair.put(']', false);
+        keyValuePair.put(')', false);
 
 
 
         String result = "YES";
-        Stack<String> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();
 
         for (int i=0; i<length; i++){
-            String currentString = Character.toString(s.charAt(i));
-            if(keyValuePair.get(Character.toString(s.charAt(i)))){
+            char currentString = s.charAt(i);
+            if(keyValuePair.get(s.charAt(i))){
                 stack.push(currentString);
             }
             else{
-                String inverseOfStringAtTopOfStack = map.get(stack.pop());
-                if(!currentString.equalsIgnoreCase(inverseOfStringAtTopOfStack)){
+                Character inverseOfStringAtTopOfStack = map.get(stack.pop());
+                if(currentString != inverseOfStringAtTopOfStack){
                     result="NO";
                     return result;
 //                    break;
