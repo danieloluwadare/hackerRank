@@ -1,4 +1,4 @@
-package com.company;
+package com.company.array;
 
 import java.util.Stack;
 
@@ -28,12 +28,31 @@ public class FloodMap {
     public static int[][] findHighPoints3(int[][] elevations) {
         int arr [][]  = new int [elevations.length][elevations.length];
         for(int i=0; i<elevations.length; i++){
-            for (int j=0; j<elevations.length; j++){
-                arr[i][j]=getMaxNeighbors(elevations,i,j);
+            for (int j=0; j<elevations[0].length; j++){
+                arr[i][j]=getMaxNeighbors3(elevations,i,j);
             }
         }
 
         return arr;
+    }
+
+    public static int getMaxNeighbors3(int [][] arr, int i, int j){
+        int maxNumber=Integer.MIN_VALUE;
+        for(int k=i-1; k<=i+1; k++){
+            for(int m = j-1; m<=j+1; m++){
+                if((k>=0 && k<arr.length) &&  (m>=0 && m<arr[0].length) && !(k==i && m==j)){
+                    int value = arr[k][m];
+                    maxNumber=Math.max(maxNumber, value);
+                }
+            }
+        }
+
+        if(arr[i][j] > maxNumber){
+            return 1;
+        }else{
+            return 0;
+        }
+
     }
 
     private static int getMaxNeighbors (int arr[][], int i, int j){

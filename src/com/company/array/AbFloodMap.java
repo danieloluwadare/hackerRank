@@ -1,7 +1,6 @@
-package com.company;
+package com.company.array;
 
-import java.util.HashMap;
-        import java.util.HashSet;
+import java.util.HashSet;
         import java.util.Set;
 public class AbFloodMap {
     public static void main(String[] args) {
@@ -79,7 +78,7 @@ class Solution2{
         retA[i][j] +=1;
         for(int k=i-1; k<=i+1; k++){
             for(int m=j-1; m<=j+1; m++){
-                if((k >= 0 && k < elevation.length) && (m >= 0 && m < elevation.length) && (!(k==i&&m==j)) ){
+                if((k >= 0 && k < elevation.length) && (m >= 0 && m < elevation[0].length) && (!(k==i&&m==j)) ){
                     if(elevation[k][m] < elevation[i][j]){
                         if(!set.contains(String.valueOf(k) + String.valueOf(m))){
                             set.add(String.valueOf(k) + String.valueOf(m));

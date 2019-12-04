@@ -1,4 +1,4 @@
-package com.company;
+package com.company.array;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -14,7 +14,16 @@ public class FloodMapHighPointPlateau {
                 {4,3,1,7,3}
         };
 
-        int boolArray [][]=findHighPointsWithPlateau(arr3);
+        int [][] cyclicArray= {
+                {1,0,2,1,2},
+                {1,3,5,4,3},
+                {4,5,2,5,3},
+                {3,5,3,5,4},
+                {4,4,5,3,0}
+        };
+
+        int boolArray [][]= findHighPointsWithPlateau(cyclicArray);
+                findHighPointsWithPlateau(arr3);
 
         for(int i=0; i <boolArray.length; i++){
             for(int j=0; j <boolArray.length; j++){
@@ -57,7 +66,7 @@ public class FloodMapHighPointPlateau {
                         if(!visited.contains(String.valueOf(k).concat(String.valueOf(m)))){
                             result.add(1);
                             indices.add(String.valueOf(k).concat(String.valueOf(m)));
-                            getMaximumNeighbors2(arr, k, m, result, visited);
+//                            getMaximumNeighbors2(arr, k, m, result, visited);
                         }
                     }
                 }
@@ -65,10 +74,56 @@ public class FloodMapHighPointPlateau {
             }
         }
 
-        if(arr[i][j] >= maxNumber){
+        if(arr[i][j] > maxNumber){
             result.add(1);
         }
-//        else if(arr[i][j]==maxNumber){
+        else if(arr[i][j]==maxNumber){
+            result.add(1);
+            for (String indexes : indices) {
+                if(result.contains(0)){
+                    return result;
+                }
+                int y=Character.getNumericValue(indexes.charAt(0));
+                int z=Character.getNumericValue(indexes.charAt(1));
+
+                getMaximumNeighbors2(arr, y, z, result, visited);
+//                System.out.println(indexes+"=="+arr[y][z]);
+            }
+
+        }
+        else {
+            result.add(0);
+        }
+
+
+        return result;
+
+//        return comparePoints(maxNumber,arr[i][j]);
+    }
+
+
+//    private static Set<Integer> getMaximumNeighbors (int arr[][], int i, int j, Set<Integer>result,Set<String>visited){
+//        Set<String>indices=new HashSet<>();
+//        visited.add(String.valueOf(i).concat(String.valueOf(j)));
+//        int maxNumber = Integer.MIN_VALUE;
+//        for(int k=i-1; k<=i+1; k++){
+//            for(int m=j-1; m<=j+1; m++){
+//                if((k>=0 && k<arr.length ) && (m>=0 && m<arr.length ) && !(k==i && m==j)){
+//                    int value=getValueAtIndex(arr,k, m);
+//                    maxNumber=Math.max(value,maxNumber);
+//                    if(arr[i][j] == value && arr[i][j] >= maxNumber ){
+//                        if(!visited.contains(String.valueOf(k).concat(String.valueOf(m)))){
+//                            indices.add(String.valueOf(k).concat(String.valueOf(m)));
+//                        }
+//                    }
+//                }
+//
+//            }
+//        }
+//
+//        if(arr[i][j] > maxNumber){
+//            result.add(1);
+//        }else if(arr[i][j]==maxNumber){
 //            result.add(1);
 //            for (String indexes : indices) {
 ////                if(result.contains(0)){
@@ -81,61 +136,15 @@ public class FloodMapHighPointPlateau {
 //                System.out.println(indexes+"=="+arr[y][z]);
 //            }
 //
+//        }else {
+//            result.add(0);
 //        }
-        else {
-            result.add(0);
-        }
-
-
-        return result;
-
-//        return comparePoints(maxNumber,arr[i][j]);
-    }
-
-
-    private static Set<Integer> getMaximumNeighbors (int arr[][], int i, int j, Set<Integer>result,Set<String>visited){
-        Set<String>indices=new HashSet<>();
-        visited.add(String.valueOf(i).concat(String.valueOf(j)));
-        int maxNumber = Integer.MIN_VALUE;
-        for(int k=i-1; k<=i+1; k++){
-            for(int m=j-1; m<=j+1; m++){
-                if((k>=0 && k<arr.length ) && (m>=0 && m<arr.length ) && !(k==i && m==j)){
-                    int value=getValueAtIndex(arr,k, m);
-                    maxNumber=Math.max(value,maxNumber);
-                    if(arr[i][j] == value && arr[i][j] >= maxNumber ){
-                        if(!visited.contains(String.valueOf(k).concat(String.valueOf(m)))){
-                            indices.add(String.valueOf(k).concat(String.valueOf(m)));
-                        }
-                    }
-                }
-
-            }
-        }
-
-        if(arr[i][j] > maxNumber){
-            result.add(1);
-        }else if(arr[i][j]==maxNumber){
-            result.add(1);
-            for (String indexes : indices) {
-//                if(result.contains(0)){
-//                    return result;
-//                }
-                int y=Character.getNumericValue(indexes.charAt(0));
-                int z=Character.getNumericValue(indexes.charAt(1));
-
-                getMaximumNeighbors(arr, y, z, result, visited);
-                System.out.println(indexes+"=="+arr[y][z]);
-            }
-
-        }else {
-            result.add(0);
-        }
-
-
-        return result;
-
-//        return comparePoints(maxNumber,arr[i][j]);
-    }
+//
+//
+//        return result;
+//
+////        return comparePoints(maxNumber,arr[i][j]);
+//    }
 
     static int comparePoints(int maxValue, int currentArrayValue ){
         if(currentArrayValue>maxValue){

@@ -1,10 +1,11 @@
-package com.company;
+package com.company.array;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
-public class FloodMapRisKScore {
-
+public class FloodMapRiskScoreSet {
     public static void main(String[] args) {
         int arr3[][]={
                 {1,2,1,3,4},
@@ -17,28 +18,33 @@ public class FloodMapRisKScore {
         int [][] result = findRiskScore(arr3);
 
         for(int i=0; i < result.length; i++){
-            for (int j=0; j<result.length; j++){
+            for (int j=0; j<result[0].length; j++){
                 System.out.print(result[i][j]);
             }
             System.out.println();
         }
     }
 
-
-
-
     public static int[][] findRiskScore(int[][] elevations) {
         int [][] highpoints = findHighPoints3(elevations);
         int [][] arr3 = new int[elevations.length][elevations[0].length];
         Set<String> set;
+        Map<String, Integer> map=new HashMap<>();
         for(int i=0; i<highpoints.length; i++){
-            for (int j=0; j<highpoints.length; j++){
+            for (int j=0; j<highpoints[0].length; j++){
 
                 if(highpoints[i][j]==1){
                     set= new HashSet<>();
-                    floodPoint(elevations, i, j, set,arr3);
+                    floodPoint(elevations, i, j, set,map);
 
                 }
+            }
+        }
+
+        for(int i=0; i<highpoints.length; i++){
+            for (int j=0; j<highpoints.length; j++){
+                String key= String.valueOf(i).concat(String.valueOf(j));
+                arr3[i][j]=map.containsKey(key) ? map.get(key) : 0;
             }
         }
 
@@ -47,15 +53,22 @@ public class FloodMapRisKScore {
     }
 
 
-    public static void floodPoint(int arr[][], int i, int j, Set<String>set, int retArr[][]){
-        retArr[i][j] += 1;
+    public static void floodPoint(int arr[][], int i, int j, Set<String>set, Map<String,Integer>map){
+        if(map.containsKey(String.valueOf(i).concat(String.valueOf(j)))){
+            int initialScore = map.get(String.valueOf(i).concat(String.valueOf(j)));
+            initialScore++;
+            map.replace(String.valueOf(i).concat(String.valueOf(j)),initialScore);
+        }else {
+            map.put(String.valueOf(i).concat(String.valueOf(j)), 1);
+        }
+//        retArr[i][j] += 1;
         for(int k=i-1; k<=i+1; k++){
             for(int m=j-1; m<=j+1; m++){
-                if((k>=0 && k<arr.length ) && (m>=0 && m<arr.length ) && !(k==i && m==j)){
+                if((k>=0 && k<arr.length ) && (m>=0 && m<arr[0].length ) && !(k==i && m==j)){
                     if(arr[i][j] > arr[k][m]){
                         if(!set.contains(String.valueOf(k).concat(String.valueOf(m)))){
                             set.add(String.valueOf(k).concat(String.valueOf(m)));
-                            floodPoint(arr,k,m,set,retArr);
+                            floodPoint(arr,k,m,set,map);
                         }
 
                     }
@@ -70,7 +83,7 @@ public class FloodMapRisKScore {
     public static int[][] findHighPoints3(int[][] elevations) {
         int arr [][]  = new int [elevations.length][elevations.length];
         for(int i=0; i<elevations.length; i++){
-            for (int j=0; j<elevations.length; j++){
+            for (int j=0; j<elevations[0].length; j++){
                 arr[i][j]=getMaxNeighbors(elevations,i,j);
             }
         }
