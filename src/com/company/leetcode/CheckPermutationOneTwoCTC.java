@@ -6,7 +6,7 @@ public class CheckPermutationOneTwoCTC {
     public static void main(String[] args) {
         String testCase1= "cat";
         String testCase2="abt";
-        System.out.println(String.format("is %s a permutation of %s  ? = %b", testCase1,testCase2, isPermutationOfOtherStringv2(testCase1, testCase2)));
+//        System.out.println(String.format("is %s a permutation of %s  ? = %b", testCase1,testCase2, isPermutationOfOtherStringv2(testCase1, testCase2)));
 //        System.out.println(String.format("is %s unique ? %b", testCase2, isStringUnique(testCase2)));
     }
 
