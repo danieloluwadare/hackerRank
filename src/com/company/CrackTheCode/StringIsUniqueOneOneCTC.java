@@ -1,4 +1,4 @@
-package com.company.leetcode;
+package com.company.CrackTheCode;
 
 //CTC=Cracking the code
 public class StringIsUniqueOneOneCTC {

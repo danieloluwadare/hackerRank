@@ -1,4 +1,4 @@
-package com.company.leetcode;
+package com.company.CrackTheCode;
 
 public class URLifyOneThreeCTC {
     public static void main(String[] args) {
