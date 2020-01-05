@@ -5,16 +5,29 @@ import java.util.*;
 public class MergeIntervals {
     public static void main(String[] args) {
         int [][] input = {
-                {1,3},
-                {2,6},
-                {5,7},
-                {8,10},
-                {15,18}
+                {1,9},
+
+                {2,5},
+
+                {19,20},
+
+                {10,11},
+
+                {12,20},
+
+                {0,3},
+
+                {0,1},
+
+                {0,2},
         };
 
 
-        SolutionMergeInterval solutionMergeInterval = new SolutionMergeInterval();
-        solutionMergeInterval.mergeIntervals(input);
+//        SolutionMergeInterval solutionMergeInterval = new SolutionMergeInterval();
+//        solutionMergeInterval.mergeIntervals(input);
+
+        SolutionMergeInterval2 solutionMergeInterval2 = new SolutionMergeInterval2();
+        solutionMergeInterval2.mergeIntervals(input);
     }
 
 }
@@ -28,7 +41,7 @@ class SolutionMergeInterval{
 
 
     public int[][] mergeIntervals(int[][] arr){
-        generateInterVals(arr);
+        intervals = Interval.generateInterVals(arr);
         for (Interval interval: intervals) {
             System.out.println(String.format("%s %s", interval.start, interval.end));
         }
@@ -156,24 +169,111 @@ class SolutionMergeInterval{
 
     }
 
-    private void generateInterVals(int[][] arr){
+
+
+
+
+
+}
+
+class SolutionMergeInterval2{
+    private List<Interval> intervals = new ArrayList<>();
+
+
+
+    public int[][] mergeIntervals(int[][] arr){
+        intervals = Interval.generateInterVals(arr);
+        for (Interval interval: intervals) {
+            System.out.println(String.format("%s %s", interval.start, interval.end));
+        }
+
+        Comparator<Interval> cm1=Comparator.comparing(Interval::getStart);
+//        Collections.sort(intervals, new IntervalCompartor());
+        Collections.sort(intervals, cm1);
+
+
+        LinkedList<Interval> mergedIntervals = new LinkedList<>();
+        mergedIntervals.add(intervals.get(0));
+
+        for(int i = 1; i<intervals.size(); i++){
+            Interval previousInterVal = mergedIntervals.peekLast();
+            Interval currentInterval = intervals.get(i);
+            if(!(currentInterval.start > previousInterVal.end)){
+                if(currentInterval.end > previousInterVal.end){
+                    int start = previousInterVal.start;
+                    int end = currentInterval.end;
+                    mergedIntervals.removeLast();
+                    mergedIntervals.add(new Interval(start, end));
+                }
+            }else{
+                mergedIntervals.add(currentInterval);
+            }
+        }
+
+//        for(int index : graphConnection.keySet()){
+//            mergedIntervals.add(performMerge(graphConnection.get(index)));
+//        }
+
+        System.out.println("--------------------------------------------------");
+
+
+        System.out.println("Merged Intervals");
+
+        for (Interval neighbor: mergedIntervals) {
+            System.out.println(String.format("%s %s", neighbor.start, neighbor.end));
+        }
+        System.out.println("--------------------------------------------------");
+
+
+
+        return null;
+
+    }
+
+
+    class IntervalCompartor implements Comparator<Interval>{
+        @Override
+        public int compare(Interval o1, Interval o2) {
+            if(o1.start < o2.start){
+                return -1;
+            }
+            else if(o1.start == o2.start){
+                return 0;
+            }
+            else return  1;
+        }
+    }
+
+
+}
+
+class Interval{
+    int start;
+    int end;
+
+    public Interval(int start, int end) {
+        this.start = start;
+        this.end = end;
+    }
+
+    public int getStart() {
+        return start;
+    }
+
+    public int getEnd() {
+        return end;
+    }
+
+    public static List<Interval> generateInterVals(int[][] arr){
+
+        List<Interval>intervals = new ArrayList<>();
 
         for(int i =0; i <arr.length; i++){
             int start = arr[i][0];
             int end = arr[i][1];
             intervals.add(new Interval(start, end));
         }
-    }
 
-
-
-    class Interval{
-        int start;
-        int end;
-
-        public Interval(int start, int end) {
-            this.start = start;
-            this.end = end;
-        }
+        return intervals;
     }
 }
