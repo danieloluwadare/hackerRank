@@ -200,10 +200,11 @@ class SolutionMergeInterval2{
             Interval currentInterval = intervals.get(i);
             if(!(currentInterval.start > previousInterVal.end)){
                 if(currentInterval.end > previousInterVal.end){
-                    int start = previousInterVal.start;
-                    int end = currentInterval.end;
-                    mergedIntervals.removeLast();
-                    mergedIntervals.add(new Interval(start, end));
+                    mergedIntervals.getLast().end=currentInterval.end;
+//                    int start = previousInterVal.start;
+//                    int end = currentInterval.end;
+//                    mergedIntervals.removeLast();
+//                    mergedIntervals.add(new Interval(start, end));
                 }
             }else{
                 mergedIntervals.add(currentInterval);
