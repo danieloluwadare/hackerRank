@@ -22,12 +22,21 @@ public class MergeIntervals {
                 {0,2},
         };
 
+        int [][] input2 = {
+        };
 
+//        System.out.println("000016191201155955001373009415".substring(0,6));
+//        System.out.println("23:59".substring(0,2) + "===> "+ "23:59".substring(3,5));
 //        SolutionMergeInterval solutionMergeInterval = new SolutionMergeInterval();
 //        solutionMergeInterval.mergeIntervals(input);
 
-        SolutionMergeInterval2 solutionMergeInterval2 = new SolutionMergeInterval2();
-        solutionMergeInterval2.mergeIntervals(input);
+//        SolutionMergeInterval2 solutionMergeInterval2 = new SolutionMergeInterval2();
+//        solutionMergeInterval2.mergeIntervals(input);
+
+        MergeIntervals56 mergeIntervals56 = new MergeIntervals56();
+        mergeIntervals56.merge(input);
+        mergeIntervals56.merge(input2);
+
     }
 
 }
@@ -201,19 +210,12 @@ class SolutionMergeInterval2{
             if(!(currentInterval.start > previousInterVal.end)){
                 if(currentInterval.end > previousInterVal.end){
                     mergedIntervals.getLast().end=currentInterval.end;
-//                    int start = previousInterVal.start;
-//                    int end = currentInterval.end;
-//                    mergedIntervals.removeLast();
-//                    mergedIntervals.add(new Interval(start, end));
                 }
             }else{
                 mergedIntervals.add(currentInterval);
             }
         }
 
-//        for(int index : graphConnection.keySet()){
-//            mergedIntervals.add(performMerge(graphConnection.get(index)));
-//        }
 
         System.out.println("--------------------------------------------------");
 
