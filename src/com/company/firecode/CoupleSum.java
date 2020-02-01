@@ -8,6 +8,7 @@ public class CoupleSum {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(coupleSum(new int []{1,2,9,11,25},20)));
+        System.out.println(true && false || false);
     }
 
     public static int[] coupleSum(int[] numbers, int target) {

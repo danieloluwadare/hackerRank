@@ -6,6 +6,9 @@ public class PowerOf2 {
         System.out.println(isPowOfTwo(2));
         System.out.println(isPowOfTwo(4));
         System.out.println(isPowOfTwo(10));
+//        double x = (double)-1/3;
+//        System.out.println(-1*-3);
+//        System.out.println(x);
 
     }
 

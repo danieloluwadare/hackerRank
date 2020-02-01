@@ -21,6 +21,14 @@ public class FindMaxElementInABinaryTreeRecursively {
         return max;
     }
 
+    public int findMax2(TreeNode root) {
+        // Add your code below this line. Do not modify any other code.
+        if (root == null) return Integer.MIN_VALUE;
+
+        return Math.max(root.data, Math.max(findMax(root.left), findMax(root.right)));
+        // Add your code above this line. Do not modify any other code.
+    }
+
     class TreeNode {
         int data;
         TreeNode left;
