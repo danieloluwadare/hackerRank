@@ -28,6 +28,7 @@ public class RemoveDuplicatesFromAListOfWords {
 //        }
 
         set.addAll(input);
+        TreeSet<String> set2 = (TreeSet<String>) set.descendingSet();
 
         return  new ArrayList<>(set);
     }

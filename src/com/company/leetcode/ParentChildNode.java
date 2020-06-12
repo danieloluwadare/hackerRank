@@ -136,7 +136,6 @@ public class ParentChildNode {
                 if(parentSize==1){
                     oneParent.add(pontentialChildWithOneParent1);
                 }
-//         () ?   : System.out.println("0");
             }
 
             if(map.containsKey(pontentialChildWithOneParent2)){
@@ -144,7 +143,6 @@ public class ParentChildNode {
                 if(parentSize==1){
                     oneParent.add(pontentialChildWithOneParent2);
                 }
-//         (parentSize==1) ?   : System.out.println("0");
             }
 
 //       if(!map.containsKey(pontentialChildWithNoParent2)){

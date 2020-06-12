@@ -8,6 +8,12 @@ import java.util.stream.Collectors;
 public class MapFunc {
 
     public static void main(String[] args) {
+
+        String test ="5|+6|";
+        String [] arr = test.split("\\|");
+        System.out.println(arr.length);
+
+
         System.out.println("The stream after applying "
                 + "the function is : ");
 
