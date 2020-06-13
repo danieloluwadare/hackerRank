@@ -16,7 +16,7 @@ public class FullTreeDecompression {
             return null;
         }
         int rootValue = Character.getNumericValue(str.charAt(0));
-        TreeNode root = new TreeNode(rootValue, null, null);
+        TreeNode root = new TreeNode(rootValue);
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
 
@@ -52,7 +52,7 @@ public class FullTreeDecompression {
         }else {
 
             int intValue = Integer.parseInt(element);
-            TreeNode node = new TreeNode(intValue,null,null);
+            TreeNode node = new TreeNode(intValue);
             queue.add(node);
             return node;
         }
