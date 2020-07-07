@@ -23,19 +23,21 @@ class GraphBasics2 {
 
     public static void main(String[] args) {
 
-        LinkedList<Integer> list = new LinkedList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        PredicateRemoveIfImpl predicateRemoveIf = new PredicateRemoveIfImpl();
-        list.removeIf(predicateRemoveIf);
-        for (int a: list) {
-            System.out.println(a);
-        }
+//        LinkedList<Integer> list = new LinkedList<>();
+//        list.add(1);
+//        list.add(2);
+//        list.add(3);
+//        list.add(4);
+//        PredicateRemoveIfImpl predicateRemoveIf = new PredicateRemoveIfImpl();
+//        list.removeIf(predicateRemoveIf);
+//        for (int a: list) {
+//            System.out.println(a);
+//        }
 
 
-
+        MyGenericKlass<SoccerPlayer> soccerPlayerMyGenericKlass = new MyGenericKlass<>();
+        SoccerPlayer soccerPlayer = soccerPlayerMyGenericKlass.createInstance(SoccerPlayer.class);
+        System.out.println(soccerPlayer.getPlayerName());
     }
 }
 
@@ -86,12 +88,19 @@ class Player implements PlayerInterface{
 
 class SoccerPlayer extends Player{
 
+    public SoccerPlayer(){
+        super("initial playerName");
+    }
     public SoccerPlayer(String name) {
         super(name);
     }
 }
 
 class TennisPlayer extends Player{
+
+    public TennisPlayer(){
+        super("initial playerName");
+    }
 
     public TennisPlayer(String name) {
         super(name);
