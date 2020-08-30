@@ -9,8 +9,6 @@ public class FindTheNumberThatAppearsOnce {
 
     public static void main(String[] args) {
         System.out.println(singleNumber(new int []{1,2,3,4,1,2,4,3,5}));
-        Stack<Integer> stack = new Stack<>();
-        new ArrayList<>();
     }
 
     public static int singleNumber(int[] A) {

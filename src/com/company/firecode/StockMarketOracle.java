@@ -1,5 +1,7 @@
 package com.company.firecode;
 
+import java.util.List;
+
 public class StockMarketOracle {
 
     public static void main(String[] args) {

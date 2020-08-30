@@ -49,6 +49,8 @@ public class BinaryTreeSerialization {
             }
         }
 
+        System.out.println();
+
         String serializedTreeContainingZero =  sb.substring(0, sb.length() - 1);
         String serializedString =serializedTreeContainingZero.replace("0","*");
 
@@ -108,4 +110,7 @@ public class BinaryTreeSerialization {
 
 
     }
+
+
+
 }
