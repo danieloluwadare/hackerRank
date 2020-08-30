@@ -4,7 +4,7 @@ public class Lc941ValidMountainArray {
 
     public static void main(String[] args) {
 
-//        System.out.println(validMountainArray(new int[]{0,3,2,1}));
+        System.out.println(validMountainArray(new int[]{0,3,2,1}));
 //        System.out.println(validMountainArray(new int[]{3,5,5}));
 //        System.out.println(validMountainArray(new int[]{2,1}));
 //        System.out.println(validMountainArray(new int[]{9,8,7,6,5,4,3,2,1,0}));
@@ -82,11 +82,11 @@ public class Lc941ValidMountainArray {
                 foundPivot = true;
             }
 
-            if(foundPivot  && A[i - 1] <= A[i])  {
+            if(foundPivot && A[i - 1] <= A[i])  {
                 return false;
             }
 
-            if(foundPivot  && A[i - 1] >= A[i])  {
+            if(!foundPivot && A[i - 1] >= A[i])  {
                 return false;
             }
 

@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/firecode/level3/DoublyLinkedNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/firecode/level3/InsertANodeAtTheSpecifiedPositionInDoublyLinkedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/firecode/level3/Snake.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc1436DestinationCity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc169MajorityElement.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc415AddStrings.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc532KdiffPairsInAnArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/DecodeString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/DeleteNodeInALinkedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/IntersectionOfTwoArrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/ListNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/MoveZeroes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/PalindromeNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/RemoveAllAdjacentDuplicatesInString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/RemoveAllAdjacentDuplicatesinStringII.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/ReverseLinkedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/SingleNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/leetcode/bloomberg/TwoCityScheduling.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/Files/FileTest.class" afterPath="$PROJECT_DIR$/out/production/hackerrank/com/company/Files/FileTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/GeneralTest/Main.class" afterPath="$PROJECT_DIR$/out/production/hackerrank/com/company/GeneralTest/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/FindTheNumberThatAppearsOnce.class" afterPath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/FindTheNumberThatAppearsOnce.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/MaxGain.class" afterPath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/MaxGain.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/StockMarketOracle.class" afterPath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/StockMarketOracle.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/level3/BinaryTreeSerialization.class" afterPath="$PROJECT_DIR$/out/production/hackerrank/com/company/firecode/level3/BinaryTreeSerialization.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Files/FileTest.java" afterPath="$PROJECT_DIR$/src/com/company/Files/FileTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GeneralTest/Main.java" afterPath="$PROJECT_DIR$/src/com/company/GeneralTest/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/firecode/FindTheNumberThatAppearsOnce.java" afterPath="$PROJECT_DIR$/src/com/company/firecode/FindTheNumberThatAppearsOnce.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/firecode/MaxGain.java" afterPath="$PROJECT_DIR$/src/com/company/firecode/MaxGain.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/firecode/StockMarketOracle.java" afterPath="$PROJECT_DIR$/src/com/company/firecode/StockMarketOracle.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/firecode/level3/BinaryTreeSerialization.java" afterPath="$PROJECT_DIR$/src/com/company/firecode/level3/BinaryTreeSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,8 +94,8 @@
       <file leaf-file-name="Lc941ValidMountainArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+            <state relative-caret-position="517">
+              <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -538,16 +507,15 @@
       <workItem from="1598586958443" duration="294000" />
       <workItem from="1598648141369" duration="88000" />
       <workItem from="1598654936644" duration="4524000" />
-      <workItem from="1598738531412" duration="4449000" />
+      <workItem from="1598738531412" duration="5459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317263000" />
+    <option name="totallyTimeSpent" value="318273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -557,9 +525,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42910448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42910448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3748212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1312,8 +1280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        <state relative-caret-position="517">
+          <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding />
         </state>
       </provider>
