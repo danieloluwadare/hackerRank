@@ -99,6 +99,7 @@ public class BinaryTreeSerialization {
         return root;
     }
 
+    @SuppressWarnings("Duplicates")
     public TreeNode getTreeNodeFromChar(String element, Queue<TreeNode> queue){
         if(element.equals("*")){
             return null;

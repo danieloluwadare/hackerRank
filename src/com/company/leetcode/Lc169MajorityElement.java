@@ -36,4 +36,9 @@ public class Lc169MajorityElement {
 
         return 0;
     }
+
+    public static int majorityElementOptimal(int[] nums) {
+        return -1;
+
+    }
 }
