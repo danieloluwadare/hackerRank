@@ -1,14 +1,7 @@
 package com.company.Files;
 
-import com.sun.tools.javac.util.ArrayUtils;
-
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Scanner;
 
 public class FileTest {
