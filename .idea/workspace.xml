@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc690EmployeeImportance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc53MaximumSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerrank/com/company/Files/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hackerrank/com/company/Files/FileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Files/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Files/FileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +79,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,7 +98,7 @@
       <recent name="com.company.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc690EmployeeImportance">
+  <component name="RunManager" selected="Application.Lc53MaximumSubarray">
     <configuration name="Lc169MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc169MajorityElement" />
       <module name="hackerrank" />
@@ -126,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc617MergeTwoBinaryTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc617MergeTwoBinaryTrees" />
+    <configuration name="Lc53MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc53MaximumSubarray" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -165,31 +164,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc617MergeTwoBinaryTrees" />
       <item itemvalue="Application.Lc771JewelsAndStones" />
       <item itemvalue="Application.Lc169MajorityElement" />
       <item itemvalue="Application.Lc532KdiffPairsInAnArray" />
       <item itemvalue="Application.Lc690EmployeeImportance" />
+      <item itemvalue="Application.Lc53MaximumSubarray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc53MaximumSubarray" />
         <item itemvalue="Application.Lc690EmployeeImportance" />
         <item itemvalue="Application.Lc532KdiffPairsInAnArray" />
         <item itemvalue="Application.Lc169MajorityElement" />
         <item itemvalue="Application.Lc771JewelsAndStones" />
-        <item itemvalue="Application.Lc617MergeTwoBinaryTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +279,8 @@
       <workItem from="1598804553270" duration="3076000" />
       <workItem from="1598821157290" duration="4036000" />
       <workItem from="1598861995978" duration="4318000" />
-      <workItem from="1598975259707" duration="4444000" />
+      <workItem from="1598975259707" duration="5029000" />
+      <workItem from="1599022704405" duration="635000" />
     </task>
     <servers />
   </component>
@@ -295,28 +297,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1598977820476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1598977820476" />
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1598979998086">
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1598980791114">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598979998086" />
-    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1598979998086">
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598980791114" />
+    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1598980791114">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598979998086" />
-    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1598979998086">
+    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598980791114" />
+    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1598980791114">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598979998086" />
-    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1598979998086">
+    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598980791114" />
+    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1598980791114">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598979998086" />
+    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598980791114" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1598975822807">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
