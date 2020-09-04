@@ -56,7 +56,6 @@ public class Lc617MergeTwoBinaryTrees {
             }
 
         }
-
         rootNodes=null;
         return t2;
 
