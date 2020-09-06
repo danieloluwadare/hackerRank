@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc1480RunningSumOf1dArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc1512NumberOfGoodPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc26RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc811SubdomainVisitCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc617MergeTwoBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc617MergeTwoBinaryTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc392IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc392IsSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <recent name="com.company.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc1512NumberOfGoodPairs">
+  <component name="RunManager" selected="Application.Lc811SubdomainVisitCount">
     <configuration name="Lc1480RunningSumOf1dArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1480RunningSumOf1dArray" />
       <module name="hackerrank" />
@@ -116,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc53MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc53MaximumSubarray" />
+    <configuration name="Lc392IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc392IsSubsequence" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc70ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc70ClimbingStairs" />
+    <configuration name="Lc811SubdomainVisitCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc811SubdomainVisitCount" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -142,31 +141,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc53MaximumSubarray" />
-      <item itemvalue="Application.Lc70ClimbingStairs" />
       <item itemvalue="Application.Lc26RemoveDuplicatesFromSortedArray" />
       <item itemvalue="Application.Lc1480RunningSumOf1dArray" />
       <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
+      <item itemvalue="Application.Lc392IsSubsequence" />
+      <item itemvalue="Application.Lc811SubdomainVisitCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc811SubdomainVisitCount" />
+        <item itemvalue="Application.Lc392IsSubsequence" />
         <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
         <item itemvalue="Application.Lc1480RunningSumOf1dArray" />
         <item itemvalue="Application.Lc26RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.Lc70ClimbingStairs" />
-        <item itemvalue="Application.Lc53MaximumSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +259,7 @@
       <workItem from="1598975259707" duration="5029000" />
       <workItem from="1599022704405" duration="6382000" />
       <workItem from="1599145856878" duration="7443000" />
+      <workItem from="1599253371438" duration="9765000" />
     </task>
     <servers />
   </component>
@@ -281,38 +283,42 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1598977820476" />
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1599174272164">
+    <state x="438" y="72" key="#xdebugger.evaluate" timestamp="1599272764912">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599174272164" />
-    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1599174272164">
+    <state x="438" y="72" key="#xdebugger.evaluate/0.0.1366.738@0.0.1366.738" timestamp="1599272764912" />
+    <state width="1323" height="259" key="GridCell.Tab.0.bottom" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599174272164" />
-    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1599174272164">
+    <state width="1323" height="259" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="259" key="GridCell.Tab.0.center" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599174272164" />
-    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1599174272164">
+    <state width="1323" height="259" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="259" key="GridCell.Tab.0.left" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599174272164" />
-    <state width="1323" height="259" key="GridCell.Tab.1.bottom" timestamp="1599034219909">
+    <state width="1323" height="259" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="259" key="GridCell.Tab.0.right" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599034219909" />
-    <state width="1323" height="259" key="GridCell.Tab.1.center" timestamp="1599034219909">
+    <state width="1323" height="259" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="259" key="GridCell.Tab.1.bottom" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1599034219909" />
-    <state width="1323" height="259" key="GridCell.Tab.1.left" timestamp="1599034219909">
+    <state width="1323" height="259" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="259" key="GridCell.Tab.1.center" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1599034219909" />
-    <state width="1323" height="259" key="GridCell.Tab.1.right" timestamp="1599034219909">
+    <state width="1323" height="259" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="259" key="GridCell.Tab.1.left" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1599034219909" />
+    <state width="1323" height="259" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="259" key="GridCell.Tab.1.right" timestamp="1599295866294">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="259" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1598975822807">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -556,64 +562,18 @@
           <line>59</line>
           <option name="timeStamp" value="246" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode/Lc392IsSubsequence.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode/Lc811SubdomainVisitCount.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>Math.pow(2,heightOfTree)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sb.substring(0,sb.length()-1).toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sb.substring(0,sb.length()).toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sb.substring(0,sb.length()-1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sb.substring(0,2)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sb.substring(0,1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str.charAt(leftIndex)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[1].substring(1,arr[1].length());</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[1].substring(0,1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="setValue">
-      <expression>
-        <expression-string>0</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="masterDetails">
     <states>

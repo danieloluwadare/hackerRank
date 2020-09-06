@@ -67,7 +67,7 @@ public class Lc941ValidMountainArray {
 
     }
 
-    //        System.out.println(validMountainArray(new int[]{0,3,2,1}));
+    //        System.out.println(validMountainArray(new int[]{0,2,3,2,1}));
 
     //Adebisi Ahmed
     public static boolean validMountainArrayAhmed(int[] A) {
