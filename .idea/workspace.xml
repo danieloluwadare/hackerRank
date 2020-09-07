@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc811SubdomainVisitCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc162FindPeakElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc392IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc392IsSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc941ValidMountainArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <recent name="com.company.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc811SubdomainVisitCount">
+  <component name="RunManager" selected="Application.Lc162FindPeakElement">
     <configuration name="Lc1480RunningSumOf1dArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1480RunningSumOf1dArray" />
       <module name="hackerrank" />
@@ -102,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc26RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc26RemoveDuplicatesFromSortedArray" />
+    <configuration name="Lc162FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc162FindPeakElement" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -141,33 +139,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc26RemoveDuplicatesFromSortedArray" />
       <item itemvalue="Application.Lc1480RunningSumOf1dArray" />
       <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
       <item itemvalue="Application.Lc392IsSubsequence" />
       <item itemvalue="Application.Lc811SubdomainVisitCount" />
+      <item itemvalue="Application.Lc162FindPeakElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc162FindPeakElement" />
         <item itemvalue="Application.Lc811SubdomainVisitCount" />
         <item itemvalue="Application.Lc392IsSubsequence" />
         <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
         <item itemvalue="Application.Lc1480RunningSumOf1dArray" />
-        <item itemvalue="Application.Lc26RemoveDuplicatesFromSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +256,7 @@
       <workItem from="1599022704405" duration="6382000" />
       <workItem from="1599145856878" duration="7443000" />
       <workItem from="1599253371438" duration="9765000" />
+      <workItem from="1599427338473" duration="5521000" />
     </task>
     <servers />
   </component>
@@ -287,22 +284,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="438" y="72" key="#xdebugger.evaluate/0.0.1366.738@0.0.1366.738" timestamp="1599272764912" />
-    <state width="1323" height="259" key="GridCell.Tab.0.bottom" timestamp="1599295866294">
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1599442116413">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1323" height="259" key="GridCell.Tab.0.center" timestamp="1599295866294">
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
+    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1599442116413">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1323" height="259" key="GridCell.Tab.0.left" timestamp="1599295866294">
+    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
+    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1599442116413">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1323" height="259" key="GridCell.Tab.0.right" timestamp="1599295866294">
+    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
+    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1599442116413">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
+    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
     <state width="1323" height="259" key="GridCell.Tab.1.bottom" timestamp="1599295866294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
