@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc162FindPeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc1048LongestStringChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc652FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +46,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot/medthreatapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,9 +75,9 @@
       <recent name="com.company.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc162FindPeakElement">
-    <configuration name="Lc1480RunningSumOf1dArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1480RunningSumOf1dArray" />
+  <component name="RunManager" selected="Application.Lc1048LongestStringChain">
+    <configuration name="Lc1048LongestStringChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1048LongestStringChain" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc392IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc392IsSubsequence" />
+    <configuration name="Lc532KdiffPairsInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc532KdiffPairsInAnArray" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -151,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc1480RunningSumOf1dArray" />
       <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
-      <item itemvalue="Application.Lc392IsSubsequence" />
       <item itemvalue="Application.Lc811SubdomainVisitCount" />
       <item itemvalue="Application.Lc162FindPeakElement" />
+      <item itemvalue="Application.Lc532KdiffPairsInAnArray" />
+      <item itemvalue="Application.Lc1048LongestStringChain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc1048LongestStringChain" />
+        <item itemvalue="Application.Lc532KdiffPairsInAnArray" />
+        <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
         <item itemvalue="Application.Lc162FindPeakElement" />
         <item itemvalue="Application.Lc811SubdomainVisitCount" />
-        <item itemvalue="Application.Lc392IsSubsequence" />
-        <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
-        <item itemvalue="Application.Lc1480RunningSumOf1dArray" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +259,10 @@
       <workItem from="1599145856878" duration="7443000" />
       <workItem from="1599253371438" duration="9765000" />
       <workItem from="1599427338473" duration="5521000" />
+      <workItem from="1599498012137" duration="818000" />
+      <workItem from="1599523756274" duration="2017000" />
+      <workItem from="1599527704390" duration="935000" />
+      <workItem from="1599614523461" duration="7261000" />
     </task>
     <servers />
   </component>
@@ -276,50 +282,68 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1599498026362">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1599498026362" />
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1598977820476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1598977820476" />
-    <state x="438" y="72" key="#xdebugger.evaluate" timestamp="1599272764912">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="493" y="81" key="#xdebugger.evaluate" timestamp="1599619134234">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="438" y="72" key="#xdebugger.evaluate/0.0.1366.738@0.0.1366.738" timestamp="1599272764912" />
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1599442116413">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="493" y="81" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1599619134234" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1599498246562">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599498246562" />
+    <state width="1088" height="265" key="GridCell.Tab.0.bottom" timestamp="1599632270944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1599442116413">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599632270944" />
+    <state width="1088" height="265" key="GridCell.Tab.0.center" timestamp="1599632270943">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1599442116413">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599632270943" />
+    <state width="1088" height="265" key="GridCell.Tab.0.left" timestamp="1599632270943">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1599442116413">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599632270943" />
+    <state width="1088" height="265" key="GridCell.Tab.0.right" timestamp="1599632270944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1323" height="259" key="GridCell.Tab.1.bottom" timestamp="1599295866294">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599632270943" />
+    <state width="1088" height="265" key="GridCell.Tab.1.bottom" timestamp="1599632270944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1323" height="259" key="GridCell.Tab.1.center" timestamp="1599295866294">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599632270944" />
+    <state width="1088" height="265" key="GridCell.Tab.1.center" timestamp="1599632270944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1323" height="259" key="GridCell.Tab.1.left" timestamp="1599295866294">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1599632270944" />
+    <state width="1088" height="265" key="GridCell.Tab.1.left" timestamp="1599632270944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1323" height="259" key="GridCell.Tab.1.right" timestamp="1599295866294">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1599632270944" />
+    <state width="1088" height="265" key="GridCell.Tab.1.right" timestamp="1599632270944">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state x="184" y="14" key="SettingsEditor" timestamp="1598975822807">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1088" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1599632270944" />
+    <state x="207" y="16" key="SettingsEditor" timestamp="1599616034219">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598975822807" />
+    <state x="207" y="16" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599616034219" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,80 +595,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>hackerrank</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
