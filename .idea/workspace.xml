@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc399EvaluateDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc70ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc70ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +60,22 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/company/Files" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.Generics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.leetcode" />
       <recent name="com.company.leetcode.bloomberg" />
       <recent name="com.company" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.Generics" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc399EvaluateDivision">
+  <component name="RunManager" selected="Application.Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit (1)">
     <configuration name="Lc1048LongestStringChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1048LongestStringChain" />
       <module name="hackerrank" />
@@ -88,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1512NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1512NumberOfGoodPairs" />
+    <configuration name="Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc162FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc162FindPeakElement" />
+    <configuration name="Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc1438.Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.leetcode.*" />
+          <option name="PATTERN" value="com.company.leetcode.Lc1438.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,20 +141,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
-      <item itemvalue="Application.Lc162FindPeakElement" />
       <item itemvalue="Application.Lc532KdiffPairsInAnArray" />
       <item itemvalue="Application.Lc1048LongestStringChain" />
       <item itemvalue="Application.Lc399EvaluateDivision" />
+      <item itemvalue="Application.Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit" />
+      <item itemvalue="Application.Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lc399EvaluateDivision" />
+        <item itemvalue="Application.Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit (1)" />
+        <item itemvalue="Application.Lc1438LongestContinuousSubarrayWithAbsoluteDiffLessThanEqualLimit" />
         <item itemvalue="Application.Lc1048LongestStringChain" />
+        <item itemvalue="Application.Lc399EvaluateDivision" />
         <item itemvalue="Application.Lc532KdiffPairsInAnArray" />
-        <item itemvalue="Application.Lc1512NumberOfGoodPairs" />
-        <item itemvalue="Application.Lc162FindPeakElement" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +267,7 @@
       <workItem from="1599614523461" duration="7261000" />
       <workItem from="1599672014138" duration="3364000" />
       <workItem from="1599776211630" duration="5983000" />
-      <workItem from="1599854834424" duration="429000" />
+      <workItem from="1599854834424" duration="16876000" />
     </task>
     <servers />
   </component>
@@ -282,6 +296,10 @@
     </state>
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1598977820476" />
     <state x="549" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1599673322754" />
+    <state x="424" y="311" width="688" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599865397061">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="424" y="311" width="688" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1599865397061" />
     <state x="493" y="81" key="#xdebugger.evaluate" timestamp="1599619134234">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -291,51 +309,51 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599498246562" />
-    <state width="1065" height="265" key="GridCell.Tab.0.bottom" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.0.bottom" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1065" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state width="1065" height="265" key="GridCell.Tab.0.center" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state width="1053" height="265" key="GridCell.Tab.0.center" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1065" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state width="1065" height="265" key="GridCell.Tab.0.left" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state width="1053" height="265" key="GridCell.Tab.0.left" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1065" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state width="1065" height="265" key="GridCell.Tab.0.right" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state width="1053" height="265" key="GridCell.Tab.0.right" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1599442116413" />
-    <state width="1065" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state width="1065" height="265" key="GridCell.Tab.1.bottom" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state width="1053" height="265" key="GridCell.Tab.1.bottom" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1065" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state width="1065" height="265" key="GridCell.Tab.1.center" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state width="1053" height="265" key="GridCell.Tab.1.center" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1065" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state width="1065" height="265" key="GridCell.Tab.1.left" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state width="1053" height="265" key="GridCell.Tab.1.left" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1065" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state width="1065" height="265" key="GridCell.Tab.1.right" timestamp="1599823612368">
+    <state width="1053" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state width="1053" height="265" key="GridCell.Tab.1.right" timestamp="1599915216277">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1323" height="259" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1599295866294" />
-    <state width="1065" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1599823612368" />
-    <state x="207" y="16" key="SettingsEditor" timestamp="1599616034219">
+    <state width="1053" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1599915216277" />
+    <state x="207" y="16" key="SettingsEditor" timestamp="1599877539640">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598975822807" />
-    <state x="207" y="16" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599616034219" />
+    <state x="207" y="16" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599877539640" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

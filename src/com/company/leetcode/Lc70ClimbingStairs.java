@@ -30,5 +30,4 @@ public class Lc70ClimbingStairs {
         return arr[n];
 
     }
-
 }
