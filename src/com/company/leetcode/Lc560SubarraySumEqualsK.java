@@ -5,10 +5,9 @@ import java.util.Map;
 
 public class Lc560SubarraySumEqualsK {
     public static void main(String[] args) {
-        System.out.println('B'-'A'+1);
-//        System.out.println(subarraySum(new int[]{1,2,1,2,1}, 3));
-//        System.out.println(subarraySum(new int[]{0,0,0,0,0,0,0,0,0,0}, 0));
-//        System.out.println(subarraySum(new int[]{-1,-1,1}, 0));
+        System.out.println(subarraySum(new int[]{1,2,1,2,1}, 3));
+        System.out.println(subarraySum(new int[]{0,0,0,0,0,0,0,0,0,0}, 0));
+        System.out.println(subarraySum(new int[]{-1,-1,1}, 0));
 
 
     }
