@@ -2,10 +2,10 @@ package com.company.Files;
 
 import com.sun.tools.javac.util.ArrayUtils;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -25,7 +25,62 @@ public class FileTest {
 //            }
 //        }
 //        System.out.println(max + " "+ maxText);
-        getCommaSeperatedExceptions();
+//        getCommaSeperatedExceptions();
+
+//        System.out.println("nip_inward_recon".toUpperCase());
+
+        createFile();
+    }
+
+    public static void createFile(){
+//        File file = new File("C:\\user\\Desktop\\dir1\\dir2\\filename.txt");
+//        file.getParentFile().mkdirs();
+////        FileWriter writer = new FileWriter(file);
+
+        String from = "/Users/ddada/Documents/danpersonal/livejavaproject/hackerrank/src/com/company/Files/kreate/create/Narration.txt";
+        File dir = new File(from);
+        dir.getParentFile().mkdirs();
+
+//        if(!dir.exists())
+//            dir.mkdirs();
+        try {
+            Path path = Paths.get(from ); //creates Path instance
+
+            Path createdPath = Files.createFile(path);
+            System.out.println(Files.exists(createdPath));
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void moveFile(){
+        String from = "/Users/ddada/Documents/danpersonal/livejavaproject/hackerrank/src/com/company/" +
+                "Files/Narration.txt";
+        String toPath = "/Users/ddada/Documents/danpersonal/livejavaproject/hackerrank/src/com/company/" +
+                "Files/copied";
+        String newNameOfFile = "THE NAME I WANT.txt";
+        File file=new File(from);
+        File newFile = new File(toPath + File.separator + newNameOfFile);
+        System.out.println("before moving file path name==>"+ file.getName());
+        System.out.println("About moving");
+
+        if(newFile.exists()){
+            System.out.println("it exist so delete");
+            boolean status =newFile.delete();
+            System.out.println(status);
+
+            System.out.println("deleted successfully");
+            newFile=new File(toPath+File.separator+newNameOfFile);
+            boolean stat = file.renameTo(newFile);
+            System.out.println(stat);
+
+        }else {
+            newFile=new File(toPath+File.separator+newNameOfFile);
+            file.renameTo(newFile);
+        }
+        System.out.println(newFile.getName());
+        System.out.println(newFile.getAbsolutePath());
 
     }
 
