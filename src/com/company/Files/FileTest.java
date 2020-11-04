@@ -32,6 +32,16 @@ public class FileTest {
         createFile();
     }
 
+    public static void createDirectoryAutomatically(){
+        File file = new File("C:\\user\\Desktop\\dir1\\dir2\\filename.txt");
+        file.getParentFile().mkdirs();
+        try {
+            FileWriter writer = new FileWriter(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void createFile(){
 //        File file = new File("C:\\user\\Desktop\\dir1\\dir2\\filename.txt");
 //        file.getParentFile().mkdirs();
