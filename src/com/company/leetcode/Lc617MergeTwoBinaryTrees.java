@@ -13,9 +13,9 @@ public class Lc617MergeTwoBinaryTrees {
 
         TreeNode root2 = new TreeNode(1);
         root2.left=new TreeNode(2);
-        root2.right = new TreeNode(3);
+//        root2.right = new TreeNode(3);
 
-        mergeTrees(root1, root2);
+        System.out.println(mergeTrees(root1, root2));
 
 
 
@@ -31,36 +31,31 @@ public class Lc617MergeTwoBinaryTrees {
         rootNodes[1]=t2;
 
         queue.offer(rootNodes);
-
+//                  1
+//              2       3
+//            4   6   7    8
         while (!queue.isEmpty()){
-            TreeNode [] nodes = queue.poll();
-            TreeNode tree1 = nodes[0];
-            TreeNode tree2 = nodes[1];
-
-            if(tree1==null || tree2==null){
+            rootNodes = queue.poll();
+            TreeNode node1 = rootNodes[0];
+            TreeNode node2 = rootNodes[1];
+            if(node1 == null || node2==null){
                 continue;
             }
-
-            tree2.val = tree2.val + tree1.val;
-            if(tree2.left==null){
-                tree2.left=tree1.left;
+            node1.val = node1.val+ node2.val;
+            if(node1.left==null){
+                node1.left=node2.left;
+            }else{
+                queue.add(new TreeNode[]{node1.left,node2.left});
+            }
+            if(node1.right==null){
+                node1.right=node2.right;
             }else {
-                queue.offer(new TreeNode[]{tree1.left,tree2.left});
-            }
+                queue.add(new TreeNode[]{node1.right,node2.right});
 
-            if(tree2.right==null){
-                tree2.right=tree1.right;
-            }
-            else {
-                queue.offer(new TreeNode[]{tree1.right,tree2.right});
             }
 
         }
-
-        rootNodes=null;
-        return t2;
-
-
+        return t1;
     }
 
 

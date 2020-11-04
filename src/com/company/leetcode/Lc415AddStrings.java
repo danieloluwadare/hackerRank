@@ -6,7 +6,6 @@ public class Lc415AddStrings {
         addStrings("131", "141");
         addStrings("1000937", "1");
         addStrings("500", "499");
-
     }
 
 
