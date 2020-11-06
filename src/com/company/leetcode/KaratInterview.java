@@ -1,5 +1,5 @@
 package com.company.leetcode;
-// You are in charge of a display advertising program. Your ads are displayed on websites all over the internet. You have some CSV input data that counts how many times that users have clicked on an ad on each individual domain. Every line consists of a click count and a domain name, like this:
+// You are in charge of a display advertising program. Your ads are displayed on websites all over the internet. You have some CSV input val that counts how many times that users have clicked on an ad on each individual domain. Every line consists of a click count and a domain name, like this:
 // counts = [ "900,google.com",
 //      "60,mail.yahoo.com",
 //      "10,mobile.sports.yahoo.com",
@@ -11,7 +11,7 @@ package com.company.leetcode;
 //      "1,m.wikipedia.org",
 //      "1,mobile.sports",
 //      "1,google.co.uk"]
-// Write a function that takes this input as a parameter and returns a data structure containing the number of clicks that were recorded on each domain AND each subdomain under it. For example, a click on "mail.yahoo.com" counts toward the totals for "mail.yahoo.com", "yahoo.com", and "com". (Subdomains are added to the left of their parent domain. So "mail" and "mail.yahoo" are not valid domains. Note that "mobile.sports" appears as a separate domain near the bottom of the input.)
+// Write a function that takes this input as a parameter and returns a val structure containing the number of clicks that were recorded on each domain AND each subdomain under it. For example, a click on "mail.yahoo.com" counts toward the totals for "mail.yahoo.com", "yahoo.com", and "com". (Subdomains are added to the left of their parent domain. So "mail" and "mail.yahoo" are not valid domains. Note that "mobile.sports" appears as a separate domain near the bottom of the input.)
 // Sample output (in any order/format):
 // calculateClicksByDomain(counts) =>
 // com:                     1340
