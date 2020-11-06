@@ -27,7 +27,7 @@ public class Fm {
 //first job
 //TopArticles
 //@return List<Strings>
-// get json {data: List<Json>}
+// get json {val: List<Json>}
 // fetch the title for each
     // !(story_title and title)  ignore
     // title (sup) story_tile (inf)

@@ -54,8 +54,8 @@ public class MinimumTimeDifference539 {
 //            return len(string) - i >= 24 and string[i: i+4] == "1110" and string[i+8: i+ 10] == "10" and string[i+16: i+18] == "10"
 //
 //
-//    public boolean validUtf8(string data) {
-//        if (len(data) % 8 != 0):
+//    public boolean validUtf8(string val) {
+//        if (len(val) % 8 != 0):
 //        return false
 //
 //        for char in string:

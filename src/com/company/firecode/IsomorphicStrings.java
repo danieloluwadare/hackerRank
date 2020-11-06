@@ -6,8 +6,14 @@ import java.util.Map;
 public class IsomorphicStrings {
 
     public static void main(String[] args) {
-        System.out.println(isIsomorphic("abcd","aabb"));
-        System.out.println(isIsomorphic("add","egg"));
+//        System.out.println(isIsomorphic("abcd","aabb"));
+//        System.out.println(isIsomorphic("add","egg"));
+
+//        System.out.println(isIsomorphic2("abcd","aabb"));
+//        System.out.println(isIsomorphic2("add","egg"));
+        System.out.println(isIsomorphic2("aba","baa"));
+
+
     }
 
 

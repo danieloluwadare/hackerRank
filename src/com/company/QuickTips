@@ -1,0 +1,5 @@
+//for summing List of integers
+1)List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
+    Integer sum = integers.stream().collect(Collectors.summingInt(Integer::intValue));
+2)  integers.stream().reduce(0, (a, b) -> a + b);
+3)  integers.stream().mapToInt(Integer::intValue).sum();

@@ -33,7 +33,7 @@ public class DeleteNodeInALinkedList {
 //        1->2->3->4->5->NULL
 //        node = 3
         ListNode nextNode = node.next;
-        node.data=nextNode.data;
+        node.val =nextNode.val;
         node.next=nextNode.next;
 
         nextNode=null;
