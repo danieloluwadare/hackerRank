@@ -2,14 +2,14 @@ package com.company.leetcode;
 
 public class TreeNode {
 
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
     TreeNode() {
     }
 
-    TreeNode(int data) {
+    public TreeNode(int data) {
         this.val = data;
     }
 

@@ -1,7 +1,9 @@
 package com.company.leetcode;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
 
@@ -26,7 +28,6 @@ public class Lc560SubarraySumEqualsK {
         System.out.println(subarraySum(new int[]{1,2,1,2,1}, 3));
         System.out.println(subarraySum(new int[]{0,0,0,0,0,0,0,0,0,0}, 0));
         System.out.println(subarraySum(new int[]{-1,-1,1}, 0));
-
 
     }
     public static int subarraySum(int[] nums, int k) {

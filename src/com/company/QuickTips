@@ -3,3 +3,18 @@
     Integer sum = integers.stream().collect(Collectors.summingInt(Integer::intValue));
 2)  integers.stream().reduce(0, (a, b) -> a + b);
 3)  integers.stream().mapToInt(Integer::intValue).sum();
+
+
+4)      Converting an integer to it binary equivalent
+        Integer.toBinaryString(130);
+
+5)      padding a String with zeroes
+
+        int length = 5;
+        String inputString = "9";
+        String s = String.format("%1$" + length + "s", inputString).replace(' ', '0');
+
+6)      Padding an integer with zeroes
+        String s2 = String.format("%0"+ length +"d",Integer.parseInt("013") );
+
+Lc-209,525,532,560,1512
