@@ -36,6 +36,8 @@ package com.company.leetcode2.bloomberg.easy;
  * s consists of parenthesestheses only '()[]{}'.
  */
 
+import javafx.util.Pair;
+
 import java.util.Stack;
 
 public class Lc20ValidParentheses{
@@ -49,6 +51,10 @@ public class Lc20ValidParentheses{
         System.out.println(isValid("{[]}"));
         System.out.println(isValid("{[]"));
         System.out.println(isValid("]"));
+
+//        Pair<Character,Integer> pair = new Pair<>('k',1);
+//        pair
+
 
     }
 
