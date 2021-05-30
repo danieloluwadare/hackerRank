@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc359LoggerRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1209RemoveAllAdjacentDuplicatesInStringII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,9 +81,9 @@
       <recent name="$PROJECT_DIR$/src/com/company/Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc359LoggerRateLimiter">
-    <configuration name="Lc1249MinimumRemoveToMakeValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1249MinimumRemoveToMakeValidParentheses" />
+  <component name="RunManager" selected="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique">
+    <configuration name="Lc1209RemoveAllAdjacentDuplicatesInStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1209RemoveAllAdjacentDuplicatesInStringII" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1448CountGoodNodesInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1448CountGoodNodesInBinaryTree" />
+    <configuration name="Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
       <module name="hackerrank" />
       <extension name="coverage">
         <pattern>
@@ -146,13 +147,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,19 +174,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc1249MinimumRemoveToMakeValidParentheses" />
-      <item itemvalue="Application.Lc1448CountGoodNodesInBinaryTree" />
       <item itemvalue="Application.Lc723CandyCrush" />
       <item itemvalue="Application.Lc362DesignHitCounter" />
       <item itemvalue="Application.Lc359LoggerRateLimiter" />
+      <item itemvalue="Application.Lc1209RemoveAllAdjacentDuplicatesInStringII" />
+      <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
+        <item itemvalue="Application.Lc1209RemoveAllAdjacentDuplicatesInStringII" />
         <item itemvalue="Application.Lc359LoggerRateLimiter" />
         <item itemvalue="Application.Lc362DesignHitCounter" />
         <item itemvalue="Application.Lc723CandyCrush" />
-        <item itemvalue="Application.Lc1448CountGoodNodesInBinaryTree" />
-        <item itemvalue="Application.Lc1249MinimumRemoveToMakeValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +358,8 @@
       <workItem from="1620635791006" duration="5391000" />
       <workItem from="1621169212106" duration="9716000" />
       <workItem from="1621328661933" duration="284000" />
-      <workItem from="1621859490763" duration="2216000" />
+      <workItem from="1621859490763" duration="8769000" />
+      <workItem from="1621935770893" duration="13612000" />
     </task>
     <servers />
   </component>
@@ -387,46 +391,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1620383005647" />
-    <state width="885" height="264" key="GridCell.Tab.0.bottom" timestamp="1621289064437">
+    <state width="1086" height="264" key="GridCell.Tab.0.bottom" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621289064437" />
-    <state width="885" height="264" key="GridCell.Tab.0.center" timestamp="1621289064436">
+    <state width="1086" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
+    <state width="1086" height="264" key="GridCell.Tab.0.center" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1621289064436" />
-    <state width="885" height="264" key="GridCell.Tab.0.left" timestamp="1621289064436">
+    <state width="1086" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
+    <state width="1086" height="264" key="GridCell.Tab.0.left" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1621289064436" />
-    <state width="885" height="264" key="GridCell.Tab.0.right" timestamp="1621289064437">
+    <state width="1086" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
+    <state width="1086" height="264" key="GridCell.Tab.0.right" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1621289064437" />
-    <state width="885" height="264" key="GridCell.Tab.1.bottom" timestamp="1621289064438">
+    <state width="1086" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
+    <state width="1086" height="264" key="GridCell.Tab.1.bottom" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621289064438" />
-    <state width="885" height="264" key="GridCell.Tab.1.center" timestamp="1621289064437">
+    <state width="1086" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
+    <state width="1086" height="264" key="GridCell.Tab.1.center" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1621289064437" />
-    <state width="885" height="264" key="GridCell.Tab.1.left" timestamp="1621289064437">
+    <state width="1086" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
+    <state width="1086" height="264" key="GridCell.Tab.1.left" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1621289064437" />
-    <state width="885" height="264" key="GridCell.Tab.1.right" timestamp="1621289064438">
+    <state width="1086" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
+    <state width="1086" height="264" key="GridCell.Tab.1.right" timestamp="1621977642884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="885" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1621289064438" />
+    <state width="1086" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1621977642884" />
     <state x="499" y="178" key="extract.method.dialog" timestamp="1619102349521">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="178" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1619102349521" />
-    <state x="478" y="150" width="590" height="592" key="find.popup" timestamp="1620327156562">
+    <state x="478" y="150" width="590" height="592" key="find.popup" timestamp="1621975087888">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="478" y="150" width="590" height="592" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1620327156562" />
+    <state x="478" y="150" width="590" height="592" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1621975087888" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1621283388534">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -799,6 +803,21 @@
           <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc723CandyCrush.java</url>
           <line>92</line>
           <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc1209RemoveAllAdjacentDuplicatesInStringII.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc1209RemoveAllAdjacentDuplicatesInStringII.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc1209RemoveAllAdjacentDuplicatesInStringII.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="289" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
