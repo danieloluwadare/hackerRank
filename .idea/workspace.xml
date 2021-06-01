@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1209RemoveAllAdjacentDuplicatesInStringII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1578MinimumDeletionCostToAvoidRepeatingLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +226,7 @@
       <recent name="$PROJECT_DIR$/src/com/company/Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc1244DesignALeaderboard">
+  <component name="RunManager" selected="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters">
     <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -256,9 +256,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc198HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc1578MinimumDeletionCostToAvoidRepeatingLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc198HouseRobber" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -270,13 +270,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc771JewelsAndStones (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc198HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.Lc771JewelsAndStones" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc198HouseRobber" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.leetcode.*" />
+          <option name="PATTERN" value="com.company.leetcode2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,18 +318,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.FileTest" />
-      <item itemvalue="Application.Lc771JewelsAndStones (1)" />
       <item itemvalue="Application.UTF8Validation393" />
       <item itemvalue="Application.Lc198HouseRobber" />
       <item itemvalue="Application.Lc1244DesignALeaderboard" />
+      <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
         <item itemvalue="Application.Lc1244DesignALeaderboard" />
         <item itemvalue="Application.Lc198HouseRobber" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.UTF8Validation393" />
-        <item itemvalue="Application.Lc771JewelsAndStones (1)" />
       </list>
     </recent_temporary>
   </component>
