@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1428LeftmostColumnWithAtLeastAOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc399EvaluateDivision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,22 +226,7 @@
       <recent name="$PROJECT_DIR$/src/com/company/Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc1428LeftmostColumnWithAtLeastAOne">
-    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Files.FileTest" />
-      <module name="hackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.Files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lc399EvaluateDivision">
     <configuration name="Lc1244DesignALeaderboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1244DesignALeaderboard" />
@@ -298,6 +283,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lc399EvaluateDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc399EvaluateDivision" />
+      <module name="hackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.leetcode2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <module name="hackerRank" />
@@ -317,19 +316,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileTest" />
       <item itemvalue="Application.Lc198HouseRobber" />
       <item itemvalue="Application.Lc1244DesignALeaderboard" />
       <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
       <item itemvalue="Application.Lc1428LeftmostColumnWithAtLeastAOne" />
+      <item itemvalue="Application.Lc399EvaluateDivision" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc399EvaluateDivision" />
         <item itemvalue="Application.Lc1428LeftmostColumnWithAtLeastAOne" />
         <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
         <item itemvalue="Application.Lc1244DesignALeaderboard" />
         <item itemvalue="Application.Lc198HouseRobber" />
-        <item itemvalue="Application.FileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +434,9 @@
       <workItem from="1622302851793" duration="1014000" />
       <workItem from="1622475066162" duration="6815000" />
       <workItem from="1622614617302" duration="638000" />
-      <workItem from="1622621776185" duration="13642000" />
+      <workItem from="1622621776185" duration="14446000" />
+      <workItem from="1623078876135" duration="4036000" />
+      <workItem from="1623089503605" duration="4102000" />
     </task>
     <servers />
   </component>
