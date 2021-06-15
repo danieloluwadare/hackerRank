@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc399EvaluateDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc273IntegerToEnglishWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc953VerifyingAnAlienDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -199,6 +201,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -226,21 +232,7 @@
       <recent name="$PROJECT_DIR$/src/com/company/Files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc399EvaluateDivision">
-    <configuration name="Lc1244DesignALeaderboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1244DesignALeaderboard" />
-      <module name="hackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.leetcode2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lc953VerifyingAnAlienDictionary">
     <configuration name="Lc1428LeftmostColumnWithAtLeastAOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1428LeftmostColumnWithAtLeastAOne" />
@@ -269,9 +261,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc198HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc273IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc198HouseRobber" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc273IntegerToEnglishWords" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -286,6 +278,20 @@
     <configuration name="Lc399EvaluateDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc399EvaluateDivision" />
+      <module name="hackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.leetcode2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lc953VerifyingAnAlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc953VerifyingAnAlienDictionary" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -316,19 +322,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc198HouseRobber" />
-      <item itemvalue="Application.Lc1244DesignALeaderboard" />
       <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
       <item itemvalue="Application.Lc1428LeftmostColumnWithAtLeastAOne" />
       <item itemvalue="Application.Lc399EvaluateDivision" />
+      <item itemvalue="Application.Lc273IntegerToEnglishWords" />
+      <item itemvalue="Application.Lc953VerifyingAnAlienDictionary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc953VerifyingAnAlienDictionary" />
+        <item itemvalue="Application.Lc273IntegerToEnglishWords" />
         <item itemvalue="Application.Lc399EvaluateDivision" />
         <item itemvalue="Application.Lc1428LeftmostColumnWithAtLeastAOne" />
         <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
-        <item itemvalue="Application.Lc1244DesignALeaderboard" />
-        <item itemvalue="Application.Lc198HouseRobber" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +442,9 @@
       <workItem from="1622614617302" duration="638000" />
       <workItem from="1622621776185" duration="14446000" />
       <workItem from="1623078876135" duration="4036000" />
-      <workItem from="1623089503605" duration="4102000" />
+      <workItem from="1623089503605" duration="4154000" />
+      <workItem from="1623378966290" duration="9156000" />
+      <workItem from="1623779742614" duration="5413000" />
     </task>
     <servers />
   </component>
