@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc273IntegerToEnglishWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc953VerifyingAnAlienDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1822SignOfTheProductOfAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc186ReverseWordsInAStringII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc277FindTheCelebrity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc722RemoveComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/bloomberg/medium/Lc582KillProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/zalando/AmazonOAMissingDiceRolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/zalando/CalculateTheSumOfAllTwoDigitsIntegersInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/zalando/CheckNonDecreasingByRemovingAtMostOneElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/zalando/CircularArrayWithMagicIndexesContainsAFullCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/zalando/ReArrangeTheInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/QuickTips" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/QuickTips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -208,7 +219,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../one-pipe-sub-auth-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../onepipe/java/grassroots-webhook" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -217,25 +228,26 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.leetcode2" />
       <recent name="com.company.Generics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/Files" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.leetcode" />
       <recent name="com.company.leetcode.bloomberg" />
       <recent name="com.company" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/company/Files" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Lc953VerifyingAnAlienDictionary">
-    <configuration name="Lc1428LeftmostColumnWithAtLeastAOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Lc460LFUCache">
+    <configuration name="Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1428LeftmostColumnWithAtLeastAOne" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -247,9 +259,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1578MinimumDeletionCostToAvoidRepeatingLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc186ReverseWordsInAStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc186ReverseWordsInAStringII" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -261,9 +273,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc273IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc277FindTheCelebrity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc273IntegerToEnglishWords" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc277FindTheCelebrity" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -275,9 +287,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc399EvaluateDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc460LFUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc399EvaluateDivision" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc460LFUCache" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -289,9 +301,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc953VerifyingAnAlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc722RemoveComments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc953VerifyingAnAlienDictionary" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode2.Lc722RemoveComments" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -322,19 +334,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
-      <item itemvalue="Application.Lc1428LeftmostColumnWithAtLeastAOne" />
-      <item itemvalue="Application.Lc399EvaluateDivision" />
-      <item itemvalue="Application.Lc273IntegerToEnglishWords" />
-      <item itemvalue="Application.Lc953VerifyingAnAlienDictionary" />
+      <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
+      <item itemvalue="Application.Lc277FindTheCelebrity" />
+      <item itemvalue="Application.Lc722RemoveComments" />
+      <item itemvalue="Application.Lc186ReverseWordsInAStringII" />
+      <item itemvalue="Application.Lc460LFUCache" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lc953VerifyingAnAlienDictionary" />
-        <item itemvalue="Application.Lc273IntegerToEnglishWords" />
-        <item itemvalue="Application.Lc399EvaluateDivision" />
-        <item itemvalue="Application.Lc1428LeftmostColumnWithAtLeastAOne" />
-        <item itemvalue="Application.Lc1578MinimumDeletionCostToAvoidRepeatingLetters" />
+        <item itemvalue="Application.Lc460LFUCache" />
+        <item itemvalue="Application.Lc186ReverseWordsInAStringII" />
+        <item itemvalue="Application.Lc722RemoveComments" />
+        <item itemvalue="Application.Lc277FindTheCelebrity" />
+        <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +456,23 @@
       <workItem from="1623078876135" duration="4036000" />
       <workItem from="1623089503605" duration="4154000" />
       <workItem from="1623378966290" duration="9156000" />
-      <workItem from="1623779742614" duration="5413000" />
+      <workItem from="1623779742614" duration="5836000" />
+      <workItem from="1624334467768" duration="215000" />
+      <workItem from="1624876848843" duration="2811000" />
+      <workItem from="1624962914284" duration="1448000" />
+      <workItem from="1624994051751" duration="3637000" />
+      <workItem from="1625147738265" duration="3961000" />
+      <workItem from="1625365796642" duration="1139000" />
+      <workItem from="1625406877619" duration="12888000" />
+      <workItem from="1625515955278" duration="6423000" />
+      <workItem from="1625667550463" duration="1203000" />
+      <workItem from="1625695177969" duration="18020000" />
+      <workItem from="1626007462830" duration="4930000" />
+      <workItem from="1626078304648" duration="13147000" />
+      <workItem from="1626164771946" duration="599000" />
+      <workItem from="1626252766123" duration="4475000" />
+      <workItem from="1626260033441" duration="2959000" />
+      <workItem from="1626265899253" duration="18900000" />
     </task>
     <servers />
   </component>
@@ -764,6 +792,61 @@
           <url>file://$PROJECT_DIR$/src/com/company/leetcode/Lc617MergeTwoBinaryTrees.java</url>
           <line>60</line>
           <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/leetcode2/Lc460LFUCache.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="279" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -46,35 +46,30 @@ public class Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique {
         System.out.println(minDeletions("abcabc"));
 
     }
-    public static int minDeletions(String s) {
-        Map<Character,Integer> map= new HashMap<>();
-        for(int i = 0; i < s.length(); i++){
-            char ch = s.charAt(i);
-            map.put(ch,map.getOrDefault(ch,0)+1);
-        }
 
+    public static int minDeletions(String s){
+        Map<Character, Integer>  map = new HashMap<>();
+        for(char c : s.toCharArray()){
+            map.put(c, map.getOrDefault(c,0)+ 1);
+        }
         List<Integer> list = new ArrayList<>();
         list.addAll(map.values());
-        list.sort(Integer::compareTo);
-        Collections.reverse(list);
-
-        int maxFrequency = list.get(0);
-        int count = 0;
-        for(int i : list){
-            if(maxFrequency <= 0){
-                count+=i;
-            }
-            else if(i <= maxFrequency){
-                maxFrequency=i-1;
-            }else {
-                int tempCount = i-maxFrequency;
-                count+=tempCount;
-                maxFrequency--;
-            }
-
-        }
+        list.sort((x, y)->y-x);
         System.out.println(list);
-
+        int count = 0;
+        int max = list.get(0);
+        for(int i : list){
+            if(max > 0 && max >= i){
+                max = i-1;
+            }
+            else if(max > 0 && max < i){
+                count += i-max;
+                max= max - 1;
+            }else {
+                count += i;
+            }
+        }
         return count;
     }
+
 }
