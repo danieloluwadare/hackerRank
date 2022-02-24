@@ -16,6 +16,9 @@ public class MyGenericTest {
     }
 
 
+    public <R,T> T doSomething(Class<T> T, Class<R> R) throws IllegalAccessException, InstantiationException {
+        return T.newInstance();
+    }
 }
 
 class GraphBasics2 {

@@ -3,3 +3,47 @@
     Integer sum = integers.stream().collect(Collectors.summingInt(Integer::intValue));
 2)  integers.stream().reduce(0, (a, b) -> a + b);
 3)  integers.stream().mapToInt(Integer::intValue).sum();
+
+
+4)      Converting an integer to it binary equivalent
+        Integer.toBinaryString(130);
+
+5)      padding a String with zeroes
+
+        int length = 5;
+        String inputString = "9";
+        String s = String.format("%1$" + length + "s", inputString).replace(' ', '0');
+
+6)      Padding an integer with zeroes
+        String s2 = String.format("%0"+ length +"d",Integer.parseInt("013") );
+
+Lc-209,525,532,560,1512
+
+7a)      list.sort((x, y)->{ return y-x; }) == list.sort((x, y)->y-x); descending order
+
+7b)      list.sort((x, y)->{ return x-y; }) == list.sort((x, y)->x-y); ascending order
+
+
+8)      //Comparator definition
+        Comparator<Integer> comparator = new Comparator<Integer>() {
+                    @Override
+                    public int compare(Integer o1, Integer o2) {
+                        return o2-o1;
+                    }
+                };
+
+ 9)       There are 3 terms subarray,subsequence,subset:-
+
+        subarray->ordered according to index and contiguous.
+
+        subsequence->ordered according to index and not contiguous.
+
+        subset->not ordered and not contiguous.
+
+        example arr[]={5,6,7,8}
+
+        subarray can be {5,6,7},{6,7,8},{5,6},etc
+
+        subsequence can be {5,7,8],{5,6,8},etc
+
+        subset can be {6,8,5},{7,5,6},etc.

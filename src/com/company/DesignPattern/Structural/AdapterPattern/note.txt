@@ -1,0 +1,21 @@
+
+Adapter pattern :
+    This is used to connect new code to legacy code without changing the working contract that was produced in the
+    legacy code originally
+    create multiple adapter for various object example
+    EmployeeCsvAdapter to convert EmployeeCsv to employee
+
+    Contrast
+        Adapter
+            - works after a code is designed basically legacy code
+            - its Retrofitted to make unrelated classes work together
+            - it is created to provide a different interface to a legacy code that was intended
+
+        Bridge
+            - it is designed upfront to allow Abstraction and Implementation vary
+            - built in advance for such cases
+            -
+
+        Similarities
+            - Both allow multiple system to adapt to them
+

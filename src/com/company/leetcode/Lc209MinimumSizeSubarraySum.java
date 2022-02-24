@@ -49,4 +49,35 @@ public class Lc209MinimumSizeSubarraySum {
         }
         return result;
     }
+    public static int minSubArrayLen2(int s, int[] nums) {
+        if(nums.length==0)
+            return 0;
+        int sum = 0;
+        int i = 0;
+        int j = 0;
+        int min = Integer.MAX_VALUE;
+
+        while (i < nums.length && j < nums.length){
+            if(sum < s){
+                sum += nums[j];
+                if(sum >= s){
+                    min = Math.min(min,j-i+1);
+                }else {
+                    j++;
+                }
+            }else {
+                sum -= nums[i];
+                i++;
+                if(sum >= s){
+                    min = Math.min(min,j-i+1);
+                }else {
+                    j++;
+                }
+            }
+        }
+        if(min==Integer.MAX_VALUE)
+            return 0;
+        return min;
+    }
+
 }
