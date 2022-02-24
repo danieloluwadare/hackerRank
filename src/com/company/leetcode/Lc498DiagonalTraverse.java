@@ -128,7 +128,7 @@ public class Lc498DiagonalTraverse {
             int c = d < M ? d : M - 1;
 
             // Iterate until one of the indices goes out of scope
-            // Take note of the index math to go down the diagonal
+            // Take note.txt of the index math to go down the diagonal
             while (r < N && c > -1) {
 
                 intermediate.add(matrix[r][c]);

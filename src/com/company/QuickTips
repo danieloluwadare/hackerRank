@@ -19,7 +19,10 @@
 
 Lc-209,525,532,560,1512
 
-7)      list.sort((x, y)->{ return y-x; }) == list.sort((x, y)->y-x);
+7a)      list.sort((x, y)->{ return y-x; }) == list.sort((x, y)->y-x); descending order
+
+7b)      list.sort((x, y)->{ return x-y; }) == list.sort((x, y)->x-y); ascending order
+
 
 8)      //Comparator definition
         Comparator<Integer> comparator = new Comparator<Integer>() {
@@ -28,3 +31,19 @@ Lc-209,525,532,560,1512
                         return o2-o1;
                     }
                 };
+
+ 9)       There are 3 terms subarray,subsequence,subset:-
+
+        subarray->ordered according to index and contiguous.
+
+        subsequence->ordered according to index and not contiguous.
+
+        subset->not ordered and not contiguous.
+
+        example arr[]={5,6,7,8}
+
+        subarray can be {5,6,7},{6,7,8},{5,6},etc
+
+        subsequence can be {5,7,8],{5,6,8},etc
+
+        subset can be {6,8,5},{7,5,6},etc.
