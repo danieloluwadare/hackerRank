@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/Lc41FirstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/hashing/Lc1817FindingTheUsersActiveMinutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/hashing/Lc49GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/Lc2011FinalValueOfVariableAfterPerformingOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc1512NumberOfGoodPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc1512NumberOfGoodPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +235,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -260,7 +258,7 @@
       <recent name="com.company.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc49GroupAnagrams">
+  <component name="RunManager" selected="Application.Lc2011FinalValueOfVariableAfterPerformingOperations">
     <configuration name="AirtelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.company.airtel.AirtelTest" />
@@ -289,23 +287,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc2011FinalValueOfVariableAfterPerformingOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.microsoft.medium.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
-      <module name="hackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.leetcode22.microsoft.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lc41FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.Lc41FirstMissingPositive" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.Lc2011FinalValueOfVariableAfterPerformingOperations" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -338,20 +322,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.company.leetcode22.Lc41FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.Lc41FirstMissingPositive" />
+      <module name="hackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.leetcode22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
+      <item itemvalue="Application.Lc2011FinalValueOfVariableAfterPerformingOperations" />
+      <item itemvalue="Application.com.company.leetcode22.Lc41FirstMissingPositive" />
       <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique (1)" />
       <item itemvalue="Application.AirtelTest" />
-      <item itemvalue="Application.Lc41FirstMissingPositive" />
       <item itemvalue="Application.Lc49GroupAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc2011FinalValueOfVariableAfterPerformingOperations" />
         <item itemvalue="Application.Lc49GroupAnagrams" />
-        <item itemvalue="Application.Lc41FirstMissingPositive" />
+        <item itemvalue="Application.com.company.leetcode22.Lc41FirstMissingPositive" />
         <item itemvalue="Application.AirtelTest" />
         <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique (1)" />
-        <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -555,6 +553,7 @@
       <workItem from="1648466001034" duration="1861000" />
       <workItem from="1648529966083" duration="731000" />
       <workItem from="1651242715810" duration="660000" />
+      <workItem from="1653907724311" duration="731000" />
     </task>
     <servers />
   </component>
