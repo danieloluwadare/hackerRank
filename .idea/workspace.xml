@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/Lc1108DeFangingAnIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/Lc1678GoalParserInterpretation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -258,14 +258,14 @@
       <recent name="com.company.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lc1108DeFangingAnIPAddress">
-    <configuration name="AirtelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Lc1678GoalParserInterpretation">
+    <configuration name="Lc1108DeFangingAnIPAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.airtel.AirtelTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.Lc1108DeFangingAnIPAddress" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.airtel.*" />
+          <option name="PATTERN" value="com.company.leetcode22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,9 +273,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc1108DeFangingAnIPAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc1678GoalParserInterpretation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.Lc1108DeFangingAnIPAddress" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.Lc1678GoalParserInterpretation" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
@@ -338,18 +338,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Lc1108DeFangingAnIPAddress" />
+      <item itemvalue="Application.Lc1678GoalParserInterpretation" />
       <item itemvalue="Application.com.company.leetcode22.Lc41FirstMissingPositive" />
       <item itemvalue="Application.com.company.leetcode22.Lc2011FinalValueOfVariableAfterPerformingOperations" />
-      <item itemvalue="Application.AirtelTest" />
       <item itemvalue="Application.Lc49GroupAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc1678GoalParserInterpretation" />
         <item itemvalue="Application.Lc1108DeFangingAnIPAddress" />
         <item itemvalue="Application.com.company.leetcode22.Lc2011FinalValueOfVariableAfterPerformingOperations" />
         <item itemvalue="Application.Lc49GroupAnagrams" />
         <item itemvalue="Application.com.company.leetcode22.Lc41FirstMissingPositive" />
-        <item itemvalue="Application.AirtelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +553,7 @@
       <workItem from="1648466001034" duration="1861000" />
       <workItem from="1648529966083" duration="731000" />
       <workItem from="1651242715810" duration="660000" />
-      <workItem from="1653907724311" duration="1192000" />
+      <workItem from="1653907724311" duration="4035000" />
     </task>
     <servers />
   </component>
