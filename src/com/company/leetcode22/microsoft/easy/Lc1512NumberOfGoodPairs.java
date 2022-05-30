@@ -1,7 +1,6 @@
 package com.company.leetcode22.microsoft.easy;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Given an array of integers nums, return the number of good pairs.
@@ -40,13 +39,13 @@ public class Lc1512NumberOfGoodPairs {
     }
 
     public static int numIdenticalPairs(int[] nums) {
-        Map<Integer, Integer> mapOfIntegerToIndex = new HashMap<>();
+        Map<Integer, Integer> mapOfIntegerToFrequency = new HashMap<>();
         int count = 0;
         for (int i = 0; i < nums.length; i++){
-            if(mapOfIntegerToIndex.containsKey(nums[i])){
-                count += mapOfIntegerToIndex.get(nums[i]);
+            if(mapOfIntegerToFrequency.containsKey(nums[i])){
+                count += mapOfIntegerToFrequency.get(nums[i]);
             }
-            mapOfIntegerToIndex.put(nums[i],mapOfIntegerToIndex.getOrDefault(nums[i],0)+1);
+            mapOfIntegerToFrequency.put(nums[i],mapOfIntegerToFrequency.getOrDefault(nums[i],0)+1);
         }
         return count;
     }

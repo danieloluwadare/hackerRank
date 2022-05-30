@@ -5,90 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31892d45-4f71-4dee-856f-0e188deadd86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Creational/Builder/LunchOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Creational/Builder/LunchOrderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Creational/Singlenton/DbSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Creational/Singlenton/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Creational/Singlenton/SingletonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/AdapterPattern/AdapterPatternMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/AdapterPattern/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/AdapterPattern/EmployeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/AdapterPattern/EmployeeCsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/AdapterPattern/EmployeeCsvAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/AdapterPattern/EmployeeDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/AdapterPattern/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/BridgePatternMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/Tobi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/problem/BlueCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/problem/BlueSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/problem/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/problem/ProblemMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/problem/RedSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/problem/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/Structural/BridgePattern/problem/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/ChainOfResponsibility/Ceo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/ChainOfResponsibility/ChainOfResponsibilityMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/ChainOfResponsibility/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/ChainOfResponsibility/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/ChainOfResponsibility/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/ChainOfResponsibility/Vp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/AmexValidationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/StrategyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/ValidationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/CompleteAbleFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/CompleteAbleFutureDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/FlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/Quote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/ThreadPlayGround/LockExamples/IntegerProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/ThreadPlayGround/LockExamples/LockMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/ThreadPlayGround/LockExamples/PrintNumberTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ExecutiveFramework/ThreadPlayGround/LockExamples/TaskEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/airtel/AirtelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/booking/AwardTopKHotels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/booking/FindTheMinimumLengthOfTheRoofThatCoversKCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/booking/LeftShiftAndRightShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/booking/TopKCountOfHotels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/hckrank/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc117PopulatingNextRightPointersInEachNodeII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1239MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc1TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc849MaximizeDistanceToClosestPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc88MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/Lc915PartitionArrayIntoDisjointIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode2/bloomberg/Lc20ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/Lc242ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc118PascalsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc1512NumberOfGoodPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc1822SignOfTheProductOfAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc283MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc557ReverseWordsInAStringIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/medium/Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode3/Lc1333FilterRestaurantsByVeganFriendlyPriceAndDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode3/Lc20ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode3/Lc347TopKFrequentElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode3/Lc3LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode3/Lc441ArrangingCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode3/Lc463IslandPerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode3/Lc528RandomPickWithWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/randomQuestions/MyQueueImplementationUsingALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/revision/Lc12IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/revision/Lc1456MaximumNumberOfVowelsInASubstringOfGivenLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/revision/Lc994RottingOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/Lc41FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/hashing/Lc1817FindingTheUsersActiveMinutes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/leetcode22/hashing/Lc49GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GeneralTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GeneralTest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Generics/MyGenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Generics/MyGenericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/QuickTips" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/QuickTips" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc498DiagonalTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc498DiagonalTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Lc53MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode/Lc53MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode2/bloomberg/easy/Lc242ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode2/bloomberg/easy/Lc242ValidAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc1512NumberOfGoodPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/leetcode22/microsoft/easy/Lc1512NumberOfGoodPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,15 +72,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/AmexValidationStrategy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/CreditCard.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/StrategyMain.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/ValidationStrategy.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/CompleteAbleFutureDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/CreditCard.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/Mortgage.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/MainExecutor.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/CompleteAbleFutureDemo2.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/com/company/DesignPattern/behavioural/Strategy/StrategyMain.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/ExecutorsDemo.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/FlightService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/MainExecutor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/company/ExecutiveFramework/Mortgage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -311,25 +232,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="TODO_SCOPE" value="All Places" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../danielgit/rust_tutorial/guessing_game" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company.DesignPattern.Structural.BridgePattern.problem" />
@@ -349,7 +260,7 @@
       <recent name="com.company.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AirtelTest">
+  <component name="RunManager" selected="Application.Lc49GroupAnagrams">
     <configuration name="AirtelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.company.airtel.AirtelTest" />
@@ -357,20 +268,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.airtel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lc118PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.microsoft.easy.Lc118PascalsTriangle" />
-      <module name="hackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.leetcode22.microsoft.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,13 +303,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lc283MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lc41FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.microsoft.easy.Lc283MoveZeroes" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.Lc41FirstMissingPositive" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.leetcode22.microsoft.easy.*" />
+          <option name="PATTERN" value="com.company.leetcode22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lc49GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode22.hashing.Lc49GroupAnagrams" />
+      <module name="hackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.leetcode22.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,19 +339,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lc118PascalsTriangle" />
-      <item itemvalue="Application.Lc283MoveZeroes" />
       <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
       <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique (1)" />
       <item itemvalue="Application.AirtelTest" />
+      <item itemvalue="Application.Lc41FirstMissingPositive" />
+      <item itemvalue="Application.Lc49GroupAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc49GroupAnagrams" />
+        <item itemvalue="Application.Lc41FirstMissingPositive" />
         <item itemvalue="Application.AirtelTest" />
         <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique (1)" />
         <item itemvalue="Application.Lc1647MinimumDeletionsToMakeCharacterFrequenciesUnique" />
-        <item itemvalue="Application.Lc283MoveZeroes" />
-        <item itemvalue="Application.Lc118PascalsTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +542,19 @@
       <workItem from="1645050061561" duration="7898000" />
       <workItem from="1645381065200" duration="9928000" />
       <workItem from="1645402274002" duration="11903000" />
-      <workItem from="1645531229423" duration="4616000" />
+      <workItem from="1645531229423" duration="5652000" />
+      <workItem from="1646569068640" duration="5100000" />
+      <workItem from="1646693936553" duration="68000" />
+      <workItem from="1647338826590" duration="3273000" />
+      <workItem from="1647520664580" duration="970000" />
+      <workItem from="1647693774875" duration="7891000" />
+      <workItem from="1647986616601" duration="624000" />
+      <workItem from="1647988305634" duration="4523000" />
+      <workItem from="1648031721082" duration="2033000" />
+      <workItem from="1648461512187" duration="189000" />
+      <workItem from="1648466001034" duration="1861000" />
+      <workItem from="1648529966083" duration="731000" />
+      <workItem from="1651242715810" duration="660000" />
     </task>
     <servers />
   </component>
